@@ -1,4 +1,4 @@
-# SCIN - Multimodal Skin Condition Identification Network
+# SCIN - Skin Condition Identification Network
 
 A multimodal machine learning pipeline for skin disease classification using both clinical metadata and dermatology images from the SCIN dataset.
 
@@ -141,28 +141,7 @@ using late fusion.
 | Mean KL Divergence | 2.2603 |
 | Argmax Accuracy | 0.2202 |
 
----
 
-# Repository Structure
-
-```
-SCIN/
-│
-├── notebooks/
-│   └── SCIN_Model.ipynb
-│
-├── checkpoints/
-│
-├── artifacts/
-│
-├── images/
-│
-├── models/
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
 
 ---
 
@@ -190,6 +169,10 @@ matplotlib
 iterative-stratification
 tqdm
 ```
+
+Tested on:
+- Python 3.10+
+- TensorFlow 2.x
 
 ---
 
@@ -261,11 +244,8 @@ The project exports:
 - `feature_columns.json`
 - `label_columns.json`
 
-All artifacts are inside:
+All artifacts can be downloaded by running the notebook (the artifacts were too large to upload to github 😅):
 
-```
-scin_artifacts
-```
 
 ---
 
